@@ -19,7 +19,17 @@ const projects = [
     tech: ["JavaScript", "HTML", "CSS", "DOM API", "setTimeout"],
     github: "https://github.com/SishirKundanReddy/webtech_portfolio",
   },
-  
+    {
+  num: "03",
+  type: "Frontend / React",
+  badgeClass: "badge-rust", // or badge-forest if you want green theme
+  title: "Personal Portfolio Website",
+  org: "Self Project · 2026",
+  desc: "Designed and developed a responsive personal portfolio using React and custom CSS to showcase projects, skills, and personal details. Implemented component-based architecture and deployed the site using GitHub Pages.",
+  tech: ["React", "CSS", "React Router", "GitHub Pages"],
+  github: "https://github.com/SishirKundanReddy/Personal-Portfolio1",
+}
+
 ];
 
 export default function Projects() {
